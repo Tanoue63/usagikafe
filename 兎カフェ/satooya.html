@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>うさぎカフェ うさぎのみみ</title>
+   <meta name="description" content="うさぎ専門のカフェです。">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Kaisei+Tokumin&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      
+      <nav id="nav-pc">
+        <ul>
+          <li> <a href="index.html"><img src="photo/logo-1.png" alt="トップページに戻る"></a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#shop">店舗</a></li>
+          <li><a href="index.html#ryoukin">料金・システム</a></li>
+          <li><a href="index.html#riyou-pc">利用方法</a></li>
+          <li><a href="index.html#kind">動物</a></li>
+          <li><a href="index.html#foster">里親について</a></li>
+          <li><a href="question.html#ques-top">よくあるご質問</a></li>
+        </ul>
+
+      </nav>
+      <img id="menu-sp" src="photo/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+      <nav id="nav-sp">
+        <img id="close" src="photo/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="photo/logo-sp.png" alt="トップページへ"></a>
+        <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">HOME</a>
+        <a class="menu" href="index.html#shop" onclick="document.getElementById('nav-sp').style.display = 'none'">店舗</a>
+        <a class="menu" href="index.html#ryoukin" onclick="document.getElementById('nav-sp').style.display = 'none'">料金・システム</a>
+        <a class="menu" href="index.html#riyou-sp-top" onclick="document.getElementById('nav-sp').style.display = 'none'">利用方法</a>
+        <a class="menu" href="index.html#kind" onclick="document.getElementById('nav-sp').style.display = 'none'">動物</a>
+        <a class="menu" href="index.html#foster" onclick="document.getElementById('nav-sp').style.display = 'none'">里親について</a>
+        <a class="menu" href="question.html#ques-top" onclick="document.getElementById('nav-sp').style.display = 'none'">よくあるご質問</a>
+        <a class="menu" href="satooya.html#sato" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a>
+      </nav>
+      
+      
+    </header>
+    <main>
+      <article>
+        <section id="top"> 
+          <img src="photo/toppage.png" alt="">
+        </section>
+        <section id="top-sp">
+          <img src="photo/toppage-sp.png" alt="">
+        </section>
+        <section id="sato">
+          <div class="sato1">
+            <p>contact</p>
+            <h1>お問い合わせ</h1>
+          </div>
+          <form method="get" action="kannryou.html#kan1" autocomplete="off" >
+            
+           
+          <div>
+          <table class="space-list">
+                <tr>
+                  <th>お名前<span class="hissu">(必須)</span></th>
+                  <th><input type="text" name="name"  class="contact-textbox" minlength="2" required ></th>
+                </tr>
+               
+                <tr>
+                  <th>フリガナ<span class="hissu">(必須)</span></th>
+                  <th><input type="text" name="name"  class="contact-textbox" minlength="2"required></th>
+                </tr>
+                
+               
+               
+                <tr>
+                  <th>電話番号</th>
+                  <th><input type="text" name="name"  class="contact-textbox"  placeholder="○○○‐○○○○‐○○○○"></th>
+                </tr>
+                <tr>
+                  <th>郵便番号</th>
+                    <th>〒<input type="text" name="name"  class="contact-textbox1" placeholder="○○○‐○○○○"></th>
+                </tr>
+                <tr>
+                  <th>住所</th>
+                    <th><input type="text" name="name"  class="contact-textbox"></th>
+                </tr>
+                <tr>
+                    <th>E-mail<span class="hissu">(必須)</span></th>
+                  <th><input  name="name"  class="contact-textbox"type="email" minlength="6" required placeholder="example@example.com"></th>
+                </tr>
+                <tr>
+                  <th>店舗<span class="hissu">(必須)</span></th>
+                  <th><select name="name" required id="">
+                    <option value="">店舗を選択してください</option>
+                    <option value="">○○店</option>
+                    <option value="">○○店</option>
+                    <option value="">○○店</option>
+                    <option value="">○○店</option>
+                  </select></th>
+                </tr>
+                
+                <tr>
+                  <th>お問い合わせ内容<span class="hissu">(必須)</span></th>
+                  <th><textarea  name="message" minlength="6" required></textarea></th>
+                </tr>
+               
+          </table>
+          <div class="soushinn1">
+          <input class="soushinn" type="submit"  value="送信">
+          </div>
+          </div>
+         </form>
+        </section>
+      </article>
+    </main>
+      <footer>
+        <div id="footer-link">
+          <div id="footer-logo">
+            <img src="photo/logo-sp.png" alt="SocialTech">
+          </div>
+          <a href="index.html">HOME</a>
+          <a href="index.html#shop">店舗</a>
+          <a href="index.html#ryoukin">料金・システム</a>
+          <a href="index.html#riyou-pc">利用方法</a>
+          <a href="index.html#kind">動物</a>
+          <a href="index.html#foster">里親について</a>
+          <a href="question.html#ques-top">よくあるご質問</a>
+
+        </div>
+      </footer>
+    
+  </body>
+</html>

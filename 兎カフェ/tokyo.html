@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>うさぎカフェ うさぎのみみ</title>
+   <meta name="description" content="うさぎ専門のカフェです。">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Kaisei+Tokumin&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      
+      <nav id="nav-pc">
+        <ul>
+          <li> <a href="index.html"><img src="photo/logo-1.png" alt="トップページに戻る"></a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#shop">店舗</a></li>
+          <li><a href="index.html#ryoukin">料金・システム</a></li>
+          <li><a href="index.html#riyou-pc">利用方法</a></li>
+          <li><a href="index.html#kind">動物</a></li>
+          <li><a href="index.html#foster">里親について</a></li>
+          <li><a href="question.html#ques-top">よくあるご質問</a></li>
+        </ul>
+        </nav>
+        <img id="menu-sp" src="photo/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+      <nav id="nav-sp">
+        <img id="close" src="photo/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="photo/logo-sp.png" alt="トップページへ"></a>
+        <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">HOME</a>
+        <a class="menu" href="index.html#shop" onclick="document.getElementById('nav-sp').style.display = 'none'">店舗</a>
+        <a class="menu" href="index.html#ryoukin" onclick="document.getElementById('nav-sp').style.display = 'none'">料金・システム</a>
+        <a class="menu" href="index.html#riyou-sp-top" onclick="document.getElementById('nav-sp').style.display = 'none'">利用方法</a>
+        <a class="menu" href="index.html#kind" onclick="document.getElementById('nav-sp').style.display = 'none'">動物</a>
+        <a class="menu" href="index.html#foster" onclick="document.getElementById('nav-sp').style.display = 'none'">里親について</a>
+        <a class="menu" href="question.html#ques-top" onclick="document.getElementById('nav-sp').style.display = 'none'">よくあるご質問</a>
+        <a class="menu" href="satooya.html#sato" onclick="document.getElementById('nav-sp').style.display = 'none'">お問い合わせ</a>
+
+      </nav>
+      </header>
+      <main>
+        <article>
+          <section id="top" > 
+            <img src="photo/toppage.png" alt="">
+          </section>
+          <section id="top-sp">
+            <img src="photo/toppage-sp.png" alt="">
+          </section>
+          <div id="shop-top">
+            <p>shop list</p>
+            <h1>店舗一覧</h1>
+          </div>
+          <section id="Kantou">
+            <div class="kantou1">
+            <h1>関東</h1>
+            <div class="tab-2">
+              <label>
+                  <input type="radio" name="tab-2" checked>
+                 神奈川
+              </label>
+              <div class="kantou-photo">
+                  <img src="photo/kantou1nwe.png" alt="">
+                  <img src="photo/kantou1nwe.png" alt="">
+                 
+              </div>
+          
+              <label>
+                  <input type="radio" name="tab-2">
+                  東京
+              </label>
+              <div class="kantou-photo">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+              </div>
+          
+              <label>
+                  <input type="radio" name="tab-2">
+                  千葉
+              </label>
+              <div class="kantou-photo">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+                <img src="photo/kantou1nwe.png" alt="">
+              </div>
+          </div>
+            </div>
+          </section>
+          <section id="Kansai">
+            <div class="kantou1">
+              <h1 id="kansai1">関西</h1>
+              <div class="tab-3">
+                <label>
+                    <input type="radio" name="tab-3" checked>
+                    大阪
+                </label>
+                <div class="kantou-photo">
+                    <img src="photo/kansai1nwe.png" alt="">
+                    <img src="photo/kansai1nwe.png" alt="">
+                </div>
+            
+                <label>
+                    <input type="radio" name="tab-3">
+                    京都
+                </label>
+                <div class="kantou-photo">
+                  <img src="photo/kansai1nwe.png" alt="">
+                    <img src="photo/kansai1nwe.png" alt="">
+                    <img src="photo/kansai1nwe.png" alt="">
+                    <img src="photo/kansai1nwe.png" alt="">
+                </div>
+            </div>
+            </div>
+          </section>
+          <section id="Kyusyu">
+            <div class="kantou1">
+              <h1 id="kyusyu1">九州</h1>
+              <div class="tab-4">
+                <label>
+                    <input type="radio" name="tab-4" checked>
+                    福岡
+                </label>
+                <div class="kantou-photo">
+                  <img src="photo/kantou1nwe.png" alt="">
+                  <img src="photo/kantou1nwe.png" alt="">
+                </div>
+            
+                <label>
+                    <input type="radio" name="tab-4">
+                    熊本
+                </label>
+                <div class="kantou-photo">
+                  <img src="photo/kantou1nwe.png" alt="">
+                
+                </div>
+            
+                <label>
+                    <input type="radio" name="tab-4">
+                    長崎
+                </label>
+                <div class="kantou-photo">
+                  <img src="photo/kantou1nwe.png" alt="">
+                
+                </div>
+            </div>
+            </div>
+
+          </section>
+        </article>
+      </main>
+      <footer>
+        <div id="footer-link">
+          <div id="footer-logo">
+            <img src="photo/logo-sp.png" alt="SocialTech">
+          </div>
+          <a href="index.html">HOME</a>
+          <a href="index.html#shop">店舗</a>
+          <a href="index.html#ryoukin">料金・システム</a>
+          <a href="index.html#riyou-pc">利用方法</a>
+          <a href="index.html#kind">動物</a>
+          <a href="index.html#foster">里親について</a>
+          <a href="question.html#ques-top">よくあるご質問</a>
+
+        </div>
+      </footer>
+    </body>
+</html>
